@@ -21,7 +21,7 @@
 import platform
 from distutils.core import setup
 
-version = '1.3.2dev'
+version = '1.3.3dev'
 
 if platform.system() in ('Linux','Unix'):
     man1pages = [('share/man/man1', [
@@ -55,7 +55,8 @@ setup(name='odfpy',
         'Operating System :: MacOS :: MacOS X',
         'Operating System :: Microsoft :: Windows',
         'Operating System :: POSIX',
-        'Programming Language :: Python :: 2 :: Only',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
         'Topic :: Office/Business',
         'Topic :: Software Development :: Libraries :: Python Modules',
       ],
